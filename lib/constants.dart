@@ -7,6 +7,7 @@ const kBottomContainerColor = Color(0xFFEB1555);
 const kActiveSlider = Color(0xFFEB1555);
 const kInactiveSlider = Color(0xFF8D8E98);
 const kOverlaySlider = Color(0x50EB1555);
+const kFloatingButtonColor = Color(0xFF4C4F5E);
 
 const kLabelTextColor = TextStyle(
   fontSize: 18.0,
