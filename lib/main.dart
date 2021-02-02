@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:bmi_app_2/input_page.dart';
+import 'file:///D:/Developt/Udemy/Flutter/Application/Sendiri/bmi_app_2/lib/screens/input_page.dart';
 
 void main() {
   runApp(BMIApp2());
