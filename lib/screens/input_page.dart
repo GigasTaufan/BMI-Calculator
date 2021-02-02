@@ -5,6 +5,7 @@ import 'package:bmi_app_2/reusable_card.dart';
 import 'package:bmi_app_2/icon_content.dart';
 import 'package:bmi_app_2/constants.dart';
 import 'package:bmi_app_2/round_icon_button.dart';
+import 'package:bmi_app_2/calculate_button.dart';
 
 enum Gender {
   male,
@@ -229,11 +230,11 @@ class _InputPageState extends State<InputPage> {
           ),
 
           //  FOURTH SECTION -- CALCULATE BUTTON--
-          Container(
-            margin: EdgeInsets.only(top: 10.0),
-            color: kBottomContainerColor,
-            width: double.infinity,
-            height: kBottomContainerHeight,
+          CalculateButton(
+            onTap: () {
+              Navigator.pushNamed(context, '/result');
+            },
+            buttonTitle: "CALCULATE",
           ),
         ],
       ),
