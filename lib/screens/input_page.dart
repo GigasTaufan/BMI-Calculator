@@ -1,13 +1,13 @@
+import 'package:bmi_app_2/calculator_brain.dart';
+import 'package:bmi_app_2/components/calculate_button.dart';
+import 'package:bmi_app_2/components/icon_content.dart';
+import 'package:bmi_app_2/components/reusable_card.dart';
+import 'package:bmi_app_2/components/round_icon_button.dart';
+import 'package:bmi_app_2/constants.dart';
 import 'package:bmi_app_2/screens/result_page.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'file:///D:/Developt/Udemy/Flutter/Application/Sendiri/bmi_app_2/lib/components/reusable_card.dart';
-import 'package:bmi_app_2/components/icon_content.dart';
-import 'package:bmi_app_2/constants.dart';
-import 'file:///D:/Developt/Udemy/Flutter/Application/Sendiri/bmi_app_2/lib/components/round_icon_button.dart';
-import 'file:///D:/Developt/Udemy/Flutter/Application/Sendiri/bmi_app_2/lib/components/calculate_button.dart';
-import 'package:bmi_app_2/calculator_brain.dart';
 
 enum Gender {
   male,
